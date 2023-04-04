@@ -42,7 +42,7 @@ operator.forEach((operator) => {
 const inputOperator = (operator) => {
     prevNumber = currentNumber
     calculationOperator = operator
-    currentNumber = '0'
+    currentNumber = ''
 }
 
 const equalSign = document.querySelector('.equal-sign')
@@ -88,7 +88,7 @@ clearBtn.addEventListener('click', () => {
 const clearAll = () => {
     prevNumber = ''
     calculationOperator = ''
-    currentNumber = ''
+    currentNumber = '0'
 }
 
 const decimal = document.querySelector('.decimal')
